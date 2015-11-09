@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "message-1:subject"
+msgstr "A Sample: Message-1 Encoded as \"en_US\""
+
+msgid "message-1:text"
+msgstr ""
+"This is a mailplate message sample.\n"
+"This is \"message-1\", encoded as \"en_US\". The value of parameter \"param\" is {param}.\n"
+"This message was sent to {to}.\n"
+"Bye!"
+
+msgid "message-1:html"
+msgstr "<html>"
+"<div style=\"color:white;background:blue;text-align:center\">This is a mailplate message sample.</div>"
+"<div>This is \"message-1\", encoded as \"en_US\". The value of parameter \"param\" is {param}.</div>"
+"<div>This message was sent to {to}.<div>\n"
+"<div>Bye!</div>"
+"</html>"
+
+msgid "message-2:subject"
+msgstr "A Sample: Message-2 Encoded as \"en_US\""
+
+msgid "message-2:text"
+msgstr ""
+"This is a mailplate message sample.\n"
+"This is \"message-2\", encoded as \"en_US\". The value of parameter \"param\" is {param}.\n"
+"This message was sent to {to}.\n"
+"Bye!"
+
+msgid "message-2:html"
+msgstr "<html>"
+"<div style=\"color:white;background:blue;text-align:center\">This is a mailplate message sample.</div>"
+"<div>This is \"message-2\", encoded as \"en_US\". The value of parameter \"param\" is {param}.</div>"
+"<div>This message was sent to {to}.<div>\n"
+"<div>Bye!</div>"
+"</html>"
+
