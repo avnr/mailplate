@@ -74,7 +74,7 @@ transport is set by the first two arguments of the Mailplate class initializer. 
 a URL-style mailer address and the second argument is transport-sepecific credentials, as follows:
 
 - SMTPS: The mailer URL is of the form `smtps://host:port` where port can be omitted and defaults to
-465. The credentials consists of two items - the username and the password.
+ 465. The credentials consists of two items - the username and the password.
 
 - Amazon SES: The mailer URL is `ses://`. The credentials consist of three items: The Access Key
 ID, the Secret Access Key, and the AWS region. Using SES requires the `boto` package to be installed.
