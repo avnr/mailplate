@@ -1,4 +1,6 @@
 
 dist/
 mailplate.egg-info/
+mailplate/__pycache__/
+mailplate/driver/__pycache__/
 
