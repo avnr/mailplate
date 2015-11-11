@@ -3,12 +3,12 @@ from setuptools import setup
 setup(
     name = 'mailplate',
     packages = [ 'mailplate' ],
-    version = '0.5',
+    version = '0.6',
     description = 'Send Muli-Language Multi-Transport Template-Driven Email',
     author = 'Avner Herskovits',
     author_email = 'avnr_ at outlook.com',
     url = 'https://github.com/avnr/mailplate',
-    download_url = 'https://github.com/avnr/mailplate/tarball/0.5',
+    download_url = 'https://github.com/avnr/mailplate/tarball/0.6',
     install_requires=[],
     classifiers=[
         'Development Status :: 4 - Beta',

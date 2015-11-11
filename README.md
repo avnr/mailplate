@@ -2,7 +2,7 @@ Send Muli-Language Multi-Transport Template-Driven Email - mailplate
 ===
 
 With `mailplate` you can send an email from a template stored in a gettext `.mo` file, over any
-supported transport. Current transports include SMTPS, Amazon SES and Mailgun. It is very easy to add
+supported transport. Current transports include SMTP, SMTPS, Amazon SES and Mailgun. It is very easy to add
 a "driver" for additional transports.
 
 Installation
@@ -69,11 +69,15 @@ argument for the parameter `to` which evaluates to the recipient's email address
 Transport-Specific Stuff
 ---
 
-The current `mailplate` version supports three trasports: SMTPS, Amazon SES and Mailgun. The
+The current `mailplate` version supports the trasports: SMTP, SMTPS, Amazon SES and Mailgun. The
 transport is set by the first two arguments of the Mailplate class initializer. The first argument is
 a URL-style mailer address and the second argument is transport-sepecific credentials, as follows:
 
-- SMTPS: The mailer URL is of the form `smtps://host:port` where port can be omitted and defaults to 465. The credentials consists of two items - the username and the password.
+- SMTP: The mailer URL is of the form `smtp://host:port` where port can be omitted and defaults to 25.
+The credentials are ignored. This transport is useful primarilly for testing purposes.
+
+- SMTPS: The mailer URL is of the form `smtps://host:port` where port can be omitted and defaults to 465.
+The credentials consists of two items - the username and the password.
 
 - Amazon SES: The mailer URL is `ses://`. The credentials consist of three items: The Access Key
 ID, the Secret Access Key, and the AWS region. Using SES requires the `boto` package to be installed.
@@ -99,4 +103,11 @@ License
 ---
 
 MIT License
+
+Release Notes
+---
+
+Release 0.6, 2015-11-11
+
+- Added the SMTP transport
 

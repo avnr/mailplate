@@ -85,8 +85,9 @@ if '__main__' == __name__:
 #
 # Uncomment ONE of the following initializers and fill-in the credentials:
 #
-    #mailplate = Mailplate( 'smtps://smtp.gmail.com:587/', ( my-username, my-password ), from-address, 'example', 'mailplate', 'en', [ 'message-1', 'message-2' ])
-    #mailplate = Mailplate( 'ses://', ( access-key-id, secret-access-key, region ), from-address, 'example', 'mailplate', 'en', [ 'message-1', 'message-2' ])
+    #mailplate = Mailplate( 'smtp://localhost:2500/', None, 'foo@example.com', 'example', 'mailplate', 'en_US', [ 'message-1', 'message-2' ])
+    #mailplate = Mailplate( 'smtps://smtp.gmail.com:587/', ( my-username, my-password ), from-address, 'example', 'mailplate', 'en_US', [ 'message-1', 'message-2' ])
+    #mailplate = Mailplate( 'ses://', ( access-key-id, secret-access-key, region ), from-address, 'example', 'mailplate', 'en_US', [ 'message-1', 'message-2' ])
     #mailplate = Mailplate( 'mailgun://', ( sender-domain, api-key ), from-address, 'example', 'mailplate', 'en_US', [ 'message-1', 'message-2' ])
 #
 # Now send as many messages:
