@@ -111,3 +111,6 @@ Release 0.6, 2015-11-11
 
 - Added the SMTP transport
 
+Release 0.601, 2015-11-12
+
+- Fixed setup to include the drivers
